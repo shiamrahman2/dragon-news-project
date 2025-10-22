@@ -16,3 +16,8 @@
 *{
     font-family: "Poppins", sans-serif;
 }
+a.active{
+  @apply text-base-300;
+  border:1px solid white;
+  background-color:seashell;
+}
