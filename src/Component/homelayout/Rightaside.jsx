@@ -1,10 +1,14 @@
 import React from 'react';
 import SocialLogin from './SocialLogin';
+import FindUs from './FindUs';
+import Qneen from './Qneen';
 
 const Rightaside = () => {
     return (
-        <div>
+        <div className='space-y-8'>
            <SocialLogin></SocialLogin>
+           <FindUs></FindUs>
+           <Qneen></Qneen>
         </div>
     );
 };
